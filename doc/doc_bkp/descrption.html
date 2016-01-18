@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>descrption - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+</script>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/darkfish.js"></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../Rakefile~.html">Rakefile~</a>
+  
+    <li><a href="../doc_bkp/arbol.html">arbol</a>
+  
+    <li><a href="../doc_bkp/commands.html">commands</a>
+  
+    <li><a href="../doc_bkp/descrption.html">descrption</a>
+  
+    <li><a href="../lib/d3249/widget/list_selector_rb~.html">list_selector.rb~</a>
+  
+    <li><a href="../lib/d3249/widget/path_selector_rb~.html">path_selector.rb~</a>
+  
+    <li><a href="../lib/facturasXML/error/exeptions_rb~.html">exeptions.rb~</a>
+  
+    <li><a href="../lib/facturasXML/factura_rb~.html">factura.rb~</a>
+  
+    <li><a href="../lib/facturasXML/gui/facturas_xml_gui_rb~.html">facturas_xml_gui.rb~</a>
+  
+    <li><a href="../lib/facturasXML/logger/logger_rb~.html">logger.rb~</a>
+  
+    <li><a href="../lib/facturasXML/options_parser/columns_rb~.html">columns.rb~</a>
+  
+    <li><a href="../lib/facturasXML/options_parser/command_line_parser_rb~.html">command_line_parser.rb~</a>
+  
+    <li><a href="../lib/facturasXML/options_parser/options_class_rb~.html">options_class.rb~</a>
+  
+    <li><a href="../lib/facturasXML/options_parser/options_parser_bak.html">options_parser.bak</a>
+  
+    <li><a href="../lib/facturasXML/reporter_rb~.html">reporter.rb~</a>
+  
+    <li><a href="../test/files/10-Bertico2_xml.html">10-Bertico2.xml</a>
+  
+    <li><a href="../test/files/LOGFILE_log.html">LOGFILE.log</a>
+  
+    <li><a href="../test/files/MEAM620813JN1_CDA_68_UAZ680906NI4_xml.html">MEAM620813JN1_CDA_68_UAZ680906NI4.xml</a>
+  
+    <li><a href="../test/files/OXXO_xml.html">OXXO.xml</a>
+  
+    <li><a href="../test/files/REPORTE_csv.html">REPORTE.csv</a>
+  
+    <li><a href="../test/files/invalid_xml.html">invalid.xml</a>
+  
+    <li><a href="../test/files/sanborns_xml.html">sanborns.xml</a>
+  
+    <li><a href="../test/test_FacturasXML_rb~.html">test_FacturasXML.rb~</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page doc_bkp/descrption">
+
+<p>Este sistema permitirá analizar un directorio en busca de Facturas y crear
+Reportes personalizados.</p>
+
+<p>Una Factura es un archivo XML con una estructura definida por el Sistema de
+Administración Tributaria (SAT) de México. Esta estructura puede variar de
+emisor a emisor (específicamente la ausencia del namespace cfdi: en
+algunos). En general se puede consultar en el archivo doc/arbol.</p>
+
+<p>Los Reportes serán arvhivos CSV separados por tabuladores.</p>
+
+<p>El sistema tendrá dos interfaces con el usuario:</p>
+
+<p>La primera será por línea de comandos. La segunda será un front-end gráfico
+para la primera.</p>
+
+<p>Las opciones serán las siguientes:</p>
+
+<pre>logfile_name:  Nombre del archivo de salida. Valor por default LOGFILE.log
+summary_name:  Nombre del reporte generado. Valor por default RESUMEN.csv
+columns:       Lista de columnas que aparecerán en el reporte. Valor por default archivo|fecha|nombre_emisor|monto
+total:         Bandera lógica que indica si se desea una línea final con el total. Valor por default VERDADERO</pre>
+
+<p>Los argumentos serán los siguientes:</p>
+
+<pre>directory:     Directorio a analizar. Valor por default . (current directory)</pre>
+
+<p>las columnas que pueden aparecer son:</p>
+
+<pre class="ruby"><span class="ruby-constant">Archivo</span>
+<span class="ruby-constant">Lugar</span> <span class="ruby-identifier">de</span> <span class="ruby-identifier">expedicion</span>
+<span class="ruby-constant">Método</span> <span class="ruby-identifier">de</span> <span class="ruby-identifier">pago</span>
+<span class="ruby-constant">Tipo</span> <span class="ruby-identifier">de</span> <span class="ruby-identifier">comprobante</span>
+<span class="ruby-identifier">total</span>
+<span class="ruby-identifier">subtotal</span>
+<span class="ruby-identifier">certificado</span>
+<span class="ruby-constant">Número</span> <span class="ruby-identifier">de</span> <span class="ruby-identifier">certificado</span>
+<span class="ruby-constant">Forma</span> <span class="ruby-identifier">de</span> <span class="ruby-identifier">pago</span>
+<span class="ruby-constant">Sello</span>
+<span class="ruby-constant">Fecha</span>
+<span class="ruby-constant">Folio</span>
+<span class="ruby-constant">Serie</span>
+<span class="ruby-constant">Emisor</span>
+    <span class="ruby-constant">Nombre</span>
+    <span class="ruby-constant">RFC</span>
+    <span class="ruby-constant">Domicilio</span> <span class="ruby-constant">Fiscal</span>
+              <span class="ruby-constant">Código</span> <span class="ruby-constant">Postal</span>
+              <span class="ruby-constant">País</span>
+              <span class="ruby-constant">Estado</span>
+              <span class="ruby-constant">Municipio</span>
+              <span class="ruby-constant">Colonia</span>
+              <span class="ruby-constant">Número</span> <span class="ruby-constant">Exterior</span>
+              <span class="ruby-constant">Calle</span>
+    <span class="ruby-constant">Expedido</span> <span class="ruby-identifier">en</span>
+             <span class="ruby-constant">Código</span> <span class="ruby-identifier">postal</span>
+             <span class="ruby-constant">País</span>
+             <span class="ruby-constant">Calle</span>
+    <span class="ruby-constant">Régimen</span> <span class="ruby-constant">Fiscal</span>
+            <span class="ruby-constant">Régimen</span>
+<span class="ruby-constant">Receptor</span>
+    <span class="ruby-constant">Nombre</span>
+    <span class="ruby-constant">RFC</span>
+    <span class="ruby-constant">Domicilio</span>
+            <span class="ruby-constant">Código</span> <span class="ruby-constant">Postal</span>
+            <span class="ruby-constant">País</span>
+            <span class="ruby-constant">Municipio</span>
+            <span class="ruby-constant">Calle</span>
+<span class="ruby-constant">Conceptos</span>
+    <span class="ruby-constant">Concepto</span> (<span class="ruby-identifier">n</span>)
+             <span class="ruby-constant">Importe</span>
+             <span class="ruby-constant">Valor</span> <span class="ruby-identifier">unitario</span>
+             <span class="ruby-constant">Descripción</span>
+             <span class="ruby-constant">Unidad</span>
+             <span class="ruby-constant">Cantidad</span>
+<span class="ruby-constant">Impuestos</span>
+    <span class="ruby-constant">Total</span> <span class="ruby-identifier">de</span> <span class="ruby-identifier">impuestos</span> <span class="ruby-identifier">trasladados</span>
+    <span class="ruby-constant">Traslados</span>
+            <span class="ruby-constant">Traslado</span> (<span class="ruby-identifier">n</span>)
+                     <span class="ruby-constant">Importe</span>
+                     <span class="ruby-constant">Tasa</span>
+                     <span class="ruby-constant">Impuesto</span>
+</pre>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

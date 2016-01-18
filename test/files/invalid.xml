@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante LugarExpedicion="AV. HIDALGO #130 ZACATECAS CENTRO, ZACATECAS ZACATECAS"
+		    metodoDePago="EFECTIVO M.N."
+		    tipoDeComprobante="ingreso"
+		    total="48.40"
+		    subTotal="41.72"
+		    certificado="MIIEqjCCA5KgAwIBAgIUMDAwMDEwMDAwMDAyMDMzNDI1ODkwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDMyOTE2MjYxNloXDTE3MDMyOTE2MjYxNlowgesxJzAlBgNVBAMTHkNBREVOQSBDT01FUkNJQUwgT1hYTyBTQSBERSBDVjEnMCUGA1UEKRMeQ0FERU5BIENPTUVSQ0lBTCBPWFhPIFNBIERFIENWMScwJQYDVQQKEx5DQURFTkEgQ09NRVJDSUFMIE9YWE8gU0EgREUgQ1YxJTAjBgNVBC0THENDTzg2MDUyMzFONCAvIFBFUE82MTAyMDNBRTIxHjAcBgNVBAUTFSAvIFBFUE82MTAyMDNIVFNSUlMwNjEnMCUGA1UECxMeQ0FERU5BIENPTUVSQ0lBTCBPWFhPIFNBIERFIENWMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnCL8LtA65i88UY+sUTEJEd8X1tn8KRagLIE8rOlaMaDGDfRwsNa4y13FH6k7JBkJfwwLX4yVlt7G3fgkUxYSnVt4ch9KSbYcRc2d7ope+Jwd+n50YzuLRGqq6khkVRuif4eSrvx4Qb9Ym9Hk7XeqDGkhHJHB0QLT59F4az3n0swIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAliDxGm+8Qa3lAq8IDvo5U+LUKDB9Z5ZgYpA911kO5Pb3mMazzFIQgm/alKfzhe8wWPCCAfILOt2SeEGxRUBfmfyeeUmRKGcCJ8wAfQToyd4wM5jsWG04vHpiu13DUxF98wNDwirZhBxkwCVXvQ51q5D3tAzM9cIR5LGo2QHezCdeRDf6GCsq+zon9rHmxIH1o9WMgUSrTAAgFOR2drOUuI0AgbAHKPfXEpQFSzjSkLTpezElbwI/e9uAZyZJwHUns0yKmLMuEfk6mY/BLgrPRghQ/XZh7v56lDXVRmG/upxla50kYeflQeuZb9HvCXUoMqIhiUulBP7vli0KNaBLZg=="
+		    noCertificado="00001000000203342589"
+		    formaDePago="PAGO EN UNA SOLA EXHIBICION"
+		    sello="MLMhrFA5ig5k0aBQEzVPZHp38YD/YJ/Y4864Zqt4iiVyc9SM2l/i5mhZlrmOZTbiDGKvoJeibTv1DWjtmGp7AF7e79GMG6QtNDHT3Q/ufQU+tisxK2MaDuuC4BX2wkYUFWbmqLCe1uwJTsC8SjhKFFBmsFI4+rDIAox0bP3B1n8="
+		    fecha="2014-02-05T13:11:42"
+		    folio="97151587"
+		    serie="ZAC"
+		    version="3.2"
+		    xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd http://www.buzonfiscal.com/ns/addenda/bf/2 http://www.buzonfiscal.com/schema/xsd/Addenda_BF_v20.xsd"
+		    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		    xmlns:bfa2="http://www.buzonfiscal.com/ns/addenda/bf/2"
+		    xmlns:cfdi="http://www.sat.gob.mx/cfd/3"
+		    xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital">
+    
+    <cfdi:Emisorxx
+	nombre="CADENA COMERCIAL OXXO, S.A. DE C.V."
+	rfc="CCO8605231N4">
+      <cfdi:DomicilioFiscal
+	  codigoPostal="64480"
+	  pais="MEXICO"
+	  estado="NUEVO LEON"
+	  municipio="MONTERREY"
+	  colonia="TALLERES"
+	  noExterior="1235 NORTE"
+	  calle="EDISON"/>
+      <cfdi:ExpedidoEn
+	  codigoPostal="98000"
+	  pais="MEXICO"
+	  calle="AV. HIDALGO #130 ZACATECAS CENTRO, ZACATECAS ZACATECAS"/>
+      
+        <cfdi:RegimenFiscal Regimen="No Aplica"/>
+
+    </cfdi:Emisorxx>
+
+    <cfdi:Receptor
+	nombre="UAZ"
+	rfc="UAZ680906NI4">
+        <cfdi:Domicilio codigoPostal="98000" pais="MEXICO" municipio="ZACATECAS ZAC" calle="JARDIN JUAREZ 147 CENTRO"/>
+    </cfdi:Receptor>
+
+    <cfdi:Conceptos>
+        <cfdi:Concepto importe="22.33" valorUnitario="22.33" descripcion="BOLSA P/BASURA 70X90" unidad="EA" cantidad="1.000"/>
+        <cfdi:Concepto importe="19.40" valorUnitario="19.40" descripcion="MAESTRO LIMPIO 1200G" unidad="EA" cantidad="1.000"/>
+    </cfdi:Conceptos>
+
+    <cfdi:Impuestos totalImpuestosTrasladados="6.68">
+        <cfdi:Traslados>
+  
+          <cfdi:Traslado importe="6.68" tasa="16.00" impuesto="IVA"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital selloSAT="Ohq8WzcAZJl9QlyAQaZsVejGcnBc0nnR8easiHUfGUxFt3z1FCsW5EdYecCmSo9hUVhcUkBJhK4trKGfJXzBDTjFuDQ9tXdy426UmjlYu0AjFu1RZSVW1UkDBoJRvABmQxfvlOj2mQaU57ITU4XvM0eW9CCM31QP+zdaqjMtAPg=" noCertificadoSAT="00001000000202693892" selloCFD="MLMhrFA5ig5k0aBQEzVPZHp38YD/YJ/Y4864Zqt4iiVyc9SM2l/i5mhZlrmOZTbiDGKvoJeibTv1DWjtmGp7AF7e79GMG6QtNDHT3Q/ufQU+tisxK2MaDuuC4BX2wkYUFWbmqLCe1uwJTsC8SjhKFFBmsFI4+rDIAox0bP3B1n8=" FechaTimbrado="2014-02-05T13:11:42" UUID="e27d7e68-fbd4-4908-af33-2e2f02b8c449" version="1.0"/>
+    </cfdi:Complemento>
+
+    <cfdi:Addenda>
+        <bfa2:AddendaBuzonFiscal version="2.0">
+            <bfa2:TipoDocumento descripcion="Factura" nombreCorto="FAC"/>
+        </bfa2:AddendaBuzonFiscal>
+    </cfdi:Addenda>
+
+  </cfdi:Comprobante>

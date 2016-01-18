@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>columns.rb~ - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../";
+</script>
+
+<script src="../../../js/jquery.js"></script>
+<script src="../../../js/darkfish.js"></script>
+
+<link href="../../../css/fonts.css" rel="stylesheet">
+<link href="../../../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../../table_of_contents.html#pages">Pages</a>
+    <a href="../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../Rakefile~.html">Rakefile~</a>
+  
+    <li><a href="../../../doc_bkp/arbol.html">arbol</a>
+  
+    <li><a href="../../../doc_bkp/commands.html">commands</a>
+  
+    <li><a href="../../../doc_bkp/descrption.html">descrption</a>
+  
+    <li><a href="../../../lib/d3249/widget/list_selector_rb~.html">list_selector.rb~</a>
+  
+    <li><a href="../../../lib/d3249/widget/path_selector_rb~.html">path_selector.rb~</a>
+  
+    <li><a href="../../../lib/facturasXML/error/exeptions_rb~.html">exeptions.rb~</a>
+  
+    <li><a href="../../../lib/facturasXML/factura_rb~.html">factura.rb~</a>
+  
+    <li><a href="../../../lib/facturasXML/gui/facturas_xml_gui_rb~.html">facturas_xml_gui.rb~</a>
+  
+    <li><a href="../../../lib/facturasXML/logger/logger_rb~.html">logger.rb~</a>
+  
+    <li><a href="../../../lib/facturasXML/options_parser/columns_rb~.html">columns.rb~</a>
+  
+    <li><a href="../../../lib/facturasXML/options_parser/command_line_parser_rb~.html">command_line_parser.rb~</a>
+  
+    <li><a href="../../../lib/facturasXML/options_parser/options_class_rb~.html">options_class.rb~</a>
+  
+    <li><a href="../../../lib/facturasXML/options_parser/options_parser_bak.html">options_parser.bak</a>
+  
+    <li><a href="../../../lib/facturasXML/reporter_rb~.html">reporter.rb~</a>
+  
+    <li><a href="../../../test/files/10-Bertico2_xml.html">10-Bertico2.xml</a>
+  
+    <li><a href="../../../test/files/LOGFILE_log.html">LOGFILE.log</a>
+  
+    <li><a href="../../../test/files/MEAM620813JN1_CDA_68_UAZ680906NI4_xml.html">MEAM620813JN1_CDA_68_UAZ680906NI4.xml</a>
+  
+    <li><a href="../../../test/files/OXXO_xml.html">OXXO.xml</a>
+  
+    <li><a href="../../../test/files/REPORTE_csv.html">REPORTE.csv</a>
+  
+    <li><a href="../../../test/files/invalid_xml.html">invalid.xml</a>
+  
+    <li><a href="../../../test/files/sanborns_xml.html">sanborns.xml</a>
+  
+    <li><a href="../../../test/test_FacturasXML_rb~.html">test_FacturasXML.rb~</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page lib/facturasXML/options_parser/columns.rb~">
+
+<p>#<strong>-</strong> enconding: utf-8 <strong>-</strong></p>
+
+<p>module <a href="../../../FacturasXML.html">FacturasXML</a></p>
+
+<pre>module OptionsParser
+
+  #Hash de equivalencias entre columnas solicitadas y los
+  #títulos que aparecerán las columnas del reporte
+
+  COLUMNS_HEADERS = {
+    &quot;a&quot; =&gt; &quot;Archivo&quot;,
+    &quot;le&quot; =&gt; &quot;Lugar de expedición&quot;,
+    &quot;mp&quot; =&gt; &quot;Método de pago&quot;,
+    &quot;tc&quot; =&gt; &quot;Típo de comprobante&quot;,
+    &quot;t&quot; =&gt;  &quot;Total&quot;,
+    &quot;st&quot; =&gt; &quot;Subtotal&quot;,
+    &quot;ce&quot; =&gt; &quot;Certificado&quot;,
+    &quot;nc&quot; =&gt; &quot;Número de certificado&quot;,
+    &quot;fp&quot; =&gt; &quot;Forma de pago&quot;,
+    &quot;s&quot; =&gt; &quot;Sello&quot;,
+    &quot;fe&quot; =&gt; &quot;Fecha&quot;,
+    &quot;fo&quot; =&gt; &quot;Folio&quot;,
+    &quot;se&quot; =&gt; &quot;Serie&quot;,
+    &quot;en&quot; =&gt; &quot;Nombre del emisor&quot;,
+    &quot;er&quot; =&gt; &quot;RFC del emisor&quot;,
+    &quot;ed&quot; =&gt; &quot;Domicilio del emisor&quot;,
+    &quot;ef&quot; =&gt; &quot;Régimen fiscal del emisor&quot;,
+    &quot;rn&quot; =&gt; &quot;Nombre del receptor&quot;,
+    &quot;rr&quot; =&gt; &quot;RFC del receptor&quot;,
+    &quot;rd&quot; =&gt; &quot;Domicilio del receptor&quot;,</pre>
+
+<p>#      “cd” =&gt; “Descropción del concepto”, #      “ci” =&gt; “Importe
+del concepto”, #      “cv” =&gt; “Valor unitario del concepto”, #      “cu”
+=&gt; “Unidad del concepto”, #      “cc” =&gt; “Cantidad del concepto”, #  
+“i” =&gt; “Total de impuestos trasladados” #      “ii” =&gt; “Importe del
+impuesto”, #      “it” =&gt; “Tasa del impuesto”, #      “in” =&gt; “Nombre
+del impuesto”</p>
+
+<pre>  }
+
+  #El valor por default del nombre de una columna no especificada es un espacio vacío
+  COLUMNS_HEADERS.default=(&quot; &quot;)
+
+  #Hash de equivalencias entre las columnas solicitadas y los
+  #parámetros del archivo XML
+
+  #Este hash devuelve un procedimiento (Proc) que al momento de ser ejecutado
+  #recibe como argumento un objeto de tipo FacturasXML::Factura
+
+  COLUMNS_PROCS = {
+    &quot;a&quot; =&gt; Proc.new{|f| f.nombre_de_archivo},
+    &quot;le&quot; =&gt; Proc.new {|f| f.lugar_expedicion},
+    &quot;mp&quot; =&gt; Proc.new {|f| f.metodo_de_pago},
+    &quot;tc&quot; =&gt; Proc.new {|f| f.tipo_de_comprobante},
+    &quot;t&quot; =&gt;  Proc.new {|f| f.total},
+    &quot;st&quot; =&gt; Proc.new {|f| f.subtotal},
+    &quot;ce&quot; =&gt; Proc.new {|f| f.certificado},
+    &quot;nc&quot; =&gt; Proc.new {|f| f.numero_de_certificado},
+    &quot;fp&quot; =&gt; Proc.new {|f| f.form_de_pago},
+    &quot;s&quot; =&gt; Proc.new {|f| f.sello},
+    &quot;fe&quot; =&gt; Proc.new {|f| f.fecha},
+    &quot;fo&quot; =&gt; Proc.new {|f| f.folio},
+    &quot;se&quot; =&gt; Proc.new {|f| f.serie},
+    &quot;en&quot; =&gt; Proc.new {|f| f.emisor_nombre},
+    &quot;er&quot; =&gt; Proc.new {|f| f.emisor_rfc},
+    &quot;ed&quot; =&gt; Proc.new {|f| f.emisor_domicilio},
+    &quot;ef&quot; =&gt; Proc.new {|f| f.emisor_regimen_fiscal},
+    &quot;rn&quot; =&gt; Proc.new {|f| f.receptor_nombre},
+    &quot;rr&quot; =&gt; Proc.new {|f| f.receptor_rfc},
+    &quot;rd&quot; =&gt; Proc.new {|f| f.receptor_domicilio},
+    #    &quot;cd&quot; =&gt; factura.descripcion, #Para cada nodo Concepto
+    #    &quot;ci&quot; =&gt; factura.importe, #Para cada nodo Concepto
+    #    &quot;cv&quot; =&gt; factura.valorUnitario, #Para cada nodo Concepto
+    #    &quot;cu&quot; =&gt; factura.unidad, #Para cada nodo Concepto
+    #    &quot;cc&quot; =&gt; factura.cantidad, #Para cada nodo Concepto
+    #    &quot;i&quot; =&gt; Proc.new {|f|f.totalImpuestosTrasladados} #Para el nodo Impuestos
+    #    &quot;ii&quot; =&gt; factura.importe, #Para cada nodo Impuesto
+    #    &quot;it&quot; =&gt; factura.tasa, #Para cada nodo Impuesto
+    #    &quot;in&quot; =&gt; factura.impuesto #Para cada nodo Impuesto
+  }
+
+  #El valor por default de una columna no listada es NODEF
+  COLUMNS_PROCS.default=Proc.new {|f| &quot;NODEF&quot;} 
+end</pre>
+
+<p>end</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

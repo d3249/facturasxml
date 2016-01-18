@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require_relative "../lib/facturasXML/reporter.rb"
+require_relative "../lib/facturasXML/options_parser/command_line_parser.rb"
+
+if __FILE__ == $0
+  
+  options = FacturasXML::OptionsParser::CommandLineParser.parse(ARGV)
+  
+  puts "Analizando el directorio <#{options.directory}>"
+
+  reporter = FacturasXML::Reporter.new(options)
+
+  reporter.make_report
+
+  puts "Se creó el arhivo #{options.directory}/#{options.logfile}"
+  puts "Se creó el archivo #{options.directory}/#{options.outfile}"
+
+end
+

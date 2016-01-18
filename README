@@ -1,0 +1,45 @@
+Este sistema permitie analizar un directorio en busca de Facturas y crear Reportes personalizados.
+
+Una Factura es un archivo XML con una estructura definida por el Sistema de Administración Tributaria (SAT)
+de México. Esta estructura puede variar de emisor a emisor (específicamente la ausencia del namespace cfdi:
+en algunos). En general se puede consultar en el archivo doc/arbol.
+
+Los Reportes serán arvhivos CSV separados por tabuladores.
+
+El sistema tendrá dos interfaces con el usuario: línea de comandos y GUI
+
+Las opciones serán las siguientes:
+
+progname [options] [path]
+
+-L logfile	Archivo de registro
+-O summaryfile	Archivo de salida
+-C COLS		Lista de columnas en el reporte
+-T 		Total. Indica que se desa una línea al final con el total de los montos. En caso de presentarse junto con -N la última (más a la derecha) será la que tenga presedencia.
+-N 		No Total. Indica que no se desa una línea al final con el total de los montos. En caso de presentarse junto con -T la última (más a la deracha) será la que tenga presedencia.
+
+COLS := COL [,COL]*
+
+COL := [b (Columna en blanco)|
+	a  (Archivo)|
+        le (Lugar de expedición)|
+	mp (Método de pago)|
+	tc (Típo de comprobante)|
+	t  (Total)|
+	st (Subtotal)|
+	ce (Certificado)|
+	nc (Número de certificado)|
+	fp (forma de pago)|
+	s  (Sello)|
+	fe (Fecha)|
+	fo (Folio)|
+	se (Serie)|
+	en (Nombre del emisor)|
+	er (RFC del emisor)|
+	ed (Domicilio del emisor)| *Domicilio completo Calle, Número, Colonia, Municipio, Estado, País, CP
+	ef (Régimen fiscal del emisor)|
+	rn (Nombre del receptor)|
+	rr (RFC del receptor)|
+	rd (Domicilio del emisor)| *Igual que ed
+       ]
+

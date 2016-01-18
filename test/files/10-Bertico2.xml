@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" Moneda="MXP" metodoDePago="no aplica" LugarExpedicion="DISTRITO FEDERAL" version="3.2" fecha="2014-11-10T13:54:13" sello="ZFvIxKpKfVbU4kdITTuArPGwHNMqeV2pA9eNLi00gtPuTWdm91iNkp/BzJ8l1gE4qESWOmihO6A+JXXHY7wYuuQpsGq3SyTqBvVDMd91F4nwY0P4DLnoA02btNP2c7zOnD7NImW4XoFznfGmvvJsZKPPD1hUSRmQAWCpJDHDFxg=" formaDePago="Pago en una sola exhibición" tipoDeComprobante="ingreso" noCertificado="00001000000301388746" certificado="MIIEbjCCA1agAwIBAgIUMDAwMDEwMDAwMDAzMDEzODg3NDYwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzExMjIyMjEyMDNaFw0xNzExMjIyMjEyMDNaMIG6MR4wHAYDVQQDExVCRVJUSUNPIENBRkUgU0EgREUgQ1YxHjAcBgNVBCkTFUJFUlRJQ08gQ0FGRSBTQSBERSBDVjEeMBwGA1UEChMVQkVSVElDTyBDQUZFIFNBIERFIENWMSUwIwYDVQQtExxCQ0E5NzAzMDRBVDUgLyBST01MNjAxMDI3VUIxMR4wHAYDVQQFExUgLyBST01MNjAxMDI3TURGTVRUMDgxETAPBgNVBAsTCE1hZGVybzY2MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEjbtzoGuNsKLkk/pduAlfZ9Ruu4wt+BRWHbBl6IdXSP3pK9RXdVumKnpt4YXiJCDE8GQe8TC2zkdC7FaULkQTRQ0f1Fcg7EeoJwxzNDoqrj5fTqnEaXlMpEpa4wtcGeKlcxGKyZzVyyKc5oe2fqswQ2NoNITb/PRAkRirlglEWwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEADyEN7vRUsIqGYp/0TSvIHGK4fy7jlxuxlYSPCOoS+5tbD7/NZ2ah6CywQVAZh/uhIb3CwbL1Wr2f4gBrlAwbCTFYd0xg3E6Ys+lr+J1vLoHA0WsrQx1hUY7Wh7tBHo4/TU/FXwGnzOqVhQCHk0FL11fwI/yyhB/cSHysMLMt1DdMiuVTv6TssgvBewZTmEnDKZaU5uZbelba82bTogjaV73u0hw+AfPWClY6TCN5egXlFeSHu3PMbRea7snvcmWcGBveoXepNLmrCiYinxHJqF5Nb3X8bg2tDvWhTCPmkUFIYwD3+tbTNsTP4PfuYaY1vNj8dOfW/4QqHPcJX/DGFw==" subTotal="1227.590000" total="1424.004400" serie="B" folio="3658">
+	<cfdi:Emisor rfc="BCA970304AT5" nombre="BERTICO CAFE SA DE CV">
+		<cfdi:DomicilioFiscal calle="TACUBA" noExterior="74" colonia="CENTRO (AREA2)" localidad="MEXICO" municipio="CUAUHTEMOC" estado="Distrito Federal" pais="MEXICO" codigoPostal="06010" />
+		<cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES"/>
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="UAZ680906NI4" nombre="Universidad Autonoma de Zacatecas Francisco Garcia Salinas">
+		<cfdi:Domicilio calle="Jardin Juarez" noExterior="#147" colonia="Centro" localidad="Zacatecas" municipio="Zacatecas" estado="Zacatecas" pais="MEXICO" codigoPostal="98000" />
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="1.000000" unidad="Pza." descripcion="Consumo de alimentos 7 de noviembre del 2014" valorUnitario="1227.590000" importe="1227.590000">
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosTrasladados="196.414400">
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IVA" tasa="16.00" importe="196.414400" />
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento>
+		<tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" FechaTimbrado="2014-11-10T13:54:14" UUID="5101620C-4DCD-F0D7-B377-60C411CD5659" noCertificadoSAT="00001000000203392777" selloCFD="ZFvIxKpKfVbU4kdITTuArPGwHNMqeV2pA9eNLi00gtPuTWdm91iNkp/BzJ8l1gE4qESWOmihO6A+JXXHY7wYuuQpsGq3SyTqBvVDMd91F4nwY0P4DLnoA02btNP2c7zOnD7NImW4XoFznfGmvvJsZKPPD1hUSRmQAWCpJDHDFxg=" selloSAT="Ox+9Kj5b8gu8wnWM8MuTKBZ4Y16AtwKg5tMibvDq16L6fJQZUVIxOy5SOjmosaBrjeb5LNrwqh6a/phnCLj0UFYruU9anl6/epN80/SfuQvqSrpu/Yc00f75iHqWQIBe9d8yNPeXzTod0CaZ59OyCE0g1NH2EyT2RvVTUe5SRZU=" version="1.0" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd"/>
+	</cfdi:Complemento>
+</cfdi:Comprobante>

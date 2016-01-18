@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Comprobante
+    xmlns:fa="http://www.itcomplements.com/cfd/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.sat.gob.mx/cfd/2"
+    xsi:schemaLocation="http://www.sat.gob.mx/cfd/2 http://www.sat.gob.mx/sitio_internet/cfd/2/cfdv22.xsd http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd"
+    version="2.2"
+    serie="UA"
+    folio="1614667"
+    fecha="2013-08-08T09:59:44"
+    sello="gShXaFVGtmGm2cYzyOhlhDKKUQptGq6qDTfjwiTItPARrjWT3UQn0RK1ZVLdUV68CG+9c4t7vlSHaWFl8GNprNS2DdcKmJFo9UVlaC6z1AnCdrtS+IlIk+iGz+qtzVN1Go+Q3y+t5+ZQBjAgy9W48jiVeelPpy8ODe+V9IIB864="
+    noAprobacion="338875"
+    anoAprobacion="2013"
+    noCertificado="00001000000201742687"
+    certificado="MIIEcTCCA1mgAwIBAgIUMDAwMDEwMDAwMDAyMDE3NDI2ODcwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDgxMzE4NDUyMFoXDTE2MDgxMzE4NDUyMFowgbIxHDAaBgNVBAMTE1NBTkJPUk4gSEVSTUFOT1MgU0ExHDAaBgNVBCkTE1NBTkJPUk4gSEVSTUFOT1MgU0ExHDAaBgNVBAoTE1NBTkJPUk4gSEVSTUFOT1MgU0ExJTAjBgNVBC0THFNIRTE5MDYzMFYzNyAvIFJPR0w2NDA0MDVLVzMxHjAcBgNVBAUTFSAvIFJPR0w2NDA0MDVIREZTTVMwODEPMA0GA1UECxMGTUFUUklaMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDubrOT82PT8Wdsh3os2mTAMSEEhzLyI2Bbxxi2HDG6TgTsVUQnVyjn5h5qZcrb9hh6/TUCZn6nMdvvT54fQtbUMyTETNO6Zyveco58m0f9BU8Rq6IdeOXpIFL8RA3ua4me7M4zayJdXokuEOOox5ZXFLf65jJWwelhELwmJFOeqwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAhwfJAv/eT6p+MHEhN4lh5CKLDrOHHEsTES06AktcojPSEYlnRoCPpCxzi/Vqnc6Xmyzd7D7fOGwzdQU5Ukytzu+yvU2lvn8Jyz1n1DIH0ITBLv3kKLRZtFmrY98zjXwXAv7zuD+jfKUB5bbDRbHg/l7h1Mw0GNOJfO081sGzuyNzEXPqRrlzbURo1gY9YQ0IXmmWS4XGqSmcrP4QxQ+bJ9vTTsL1g7wiIQpGNzsbDP0psvlVAxKx0h135lrPfF+PmBRFCWv04VVyzi1OgC33Ar9LWC8xGqN1VCP9JalR2SrESxQTDYN98E1lpM/qdZNuPhHKtB0uNPBok6hykojWew=="
+    subTotal="131.04"
+    descuento="0.00"
+    total="152.00"
+    formaDePago="PAGO EN UNA SOLA EXHIBICION"
+    tipoDeComprobante="ingreso"
+    metodoDePago="TARJETA DE CREDITO"
+    Moneda="MX"
+    TipoCambio="1"
+    LugarExpedicion="EXPEDIDO EN SUCURSAL MADERO"
+    NumCtaPago="7016">
+  
+  <Emisor rfc="SHE190630V37"
+	  nombre="SANBORN HERMANOS, S.A.">
+    <DomicilioFiscal
+	calle="LAGO ZURICH"
+	noExterior="245"
+	noInterior="EDIFICIO PRESA FALCON PISO 7"
+	colonia="GRANADA AMPLIACION"
+	localidad="MIGUEL HIDALGO"
+	municipio="MIGUEL HIDALGO"
+	estado="D.F."
+	pais="MEXICO"
+	codigoPostal="11529"/>
+    <ExpedidoEn	calle="AV. FRANCISCO I. MADERO"
+		noExterior="4"
+		colonia="CENTRO"
+		localidad="CUAUHTEMOC"
+		municipio="CUAUHTEMOC"
+		estado="D.F."
+		pais="MEXICO"
+		codigoPostal="06500" />
+    <RegimenFiscal Regimen="REGIMEN DE CONSOLIDACION FISCAL" />
+  </Emisor>
+  
+  <Receptor
+      rfc="UAZ680906NI4"
+      nombre="UNIVERSIDAD AUTÓNOMA DE ZACATECAS &quot;FRANCISCO GARCÍA SALINAS&quot; AVENIDA">
+    <Domicilio
+	calle="JARDIN JUAREZ"
+	noExterior="147"
+	colonia="CENTRO HISTORICO"
+	localidad="ZACATECAS"
+	municipio="ZACATECAS"
+	estado="ZACATECAS"
+	pais="MEXICO"
+	codigoPostal="98000" />
+  </Receptor>
+  <Conceptos>
+    <Concepto cantidad=" 1   " noIdentificacion="9999999" descripcion="Un consumo                                                            " valorUnitario="131.04" importe="131.04" unidad="           NO APLICA" />
+  </Conceptos>
+  <Impuestos totalImpuestosTrasladados="20.96">
+    <Traslados>
+      <Traslado impuesto="IVA   " tasa="16     " importe="        20.96" />
+    </Traslados>
+  </Impuestos>
+  
+  <Addenda>
+    <fa:Datos version="1.0" tipoDocumento="FACTURA" subdocumento="0001000171120108-2933712" mail="" impresora1="" impresora2="" noCopias1="" noCopias2="" fechaFactura="" pedidoInterno="" noOrdenCompra="" fechaOrdenCompra="" noContraRecibo="" fechaContraRecibo="" glnComprador="" glnVendedor="" glnEntregado="" totalPartidas="" moneda="" tipoCambio="" cantidadConLetra="(* CIENTO CINCUENTA Y DOS PESOS 00/100 M.N. *)" status="1" IvaMx="20.96" totalMx="152.00" subtotalSinDescuentos="131.04" subTotalMX="" noProveedor="" numCliente="" pedidoCliente="" dia="08" mes="08" anio="13" hora="09:59:44" EtiquetaIdentificador="SCN" IdentificadorArea="0001000171120108-2933712" Nota="Se expide la presente a peticion del interesado, ya que su importe se incluye dentro de la factura global diaria que se formula de acuerdo al articulo 37 del reglamento del codigo fiscal de la Federacion" tienda="1" EtiExpedidoEn="EXPEDIDO EN SUCURSAL MADERO" EtiEntregadoEn="" EtiqCol1="Division" EtiqCol2="Clave" EtiqCol3="Cantidad" EtiqCol4="Descripcion" EtiqCol5="U.M." EtiqCol6="Precio Unitario" EtiqCol7="Importe Neto" EtiRetencion="" EtiImporteRetencion="" EtiTasaIVA="( EL IVA SE TRASLADA A LA TASA 16% )" EtiObservaciones="Observaciones" Observaciones="0001,026,7112,01/08/2013" NoCia="00001" EtiqtipoDocumento="FACTURA" descTotal="" CuentaPredial="">
+      <fa:CadenaOriginal>
+	||2.2|UA|1614667|2013-08-08T09:59:44|338875|2013|ingreso|PAGO EN UNA SOLA EXHIBICION|131.04|0.00|152.00|TARJETA DE CREDITO|EXPEDIDO EN SUCURSAL MADERO|7016|1|MX|SHE190630V37|SANBORN HERMANOS, S.A.|LAGO ZURICH|245|EDIFICIO PRESA FALCON PISO 7|GRANADA AMPLIACION|MIGUEL HIDALGO|MIGUEL HIDALGO|D.F.|MEXICO|11529|AV. FRANCISCO I. MADERO|4|CENTRO|CUAUHTEMOC|CUAUHTEMOC|D.F.|MEXICO|06500|REGIMEN DE CONSOLIDACION FISCAL|UAZ680906NI4|UNIVERSIDAD AUTÓNOMA DE ZACATECAS "FRANCISCO GARCÍA SALINAS" AVENIDA|JARDIN JUAREZ|147|CENTRO HISTORICO|ZACATECAS|ZACATECAS|ZACATECAS|MEXICO|98000|1|NO APLICA|9999999|Un consumo|131.04|131.04|IVA|16|20.96|20.96||</fa:CadenaOriginal>
+      <fa:AddendaComercial>
+        <fa:EntregadoEn nombre="" calle="" noExterior="" noInterior="" colonia="" localidad="" referencia="" municipio="" estado="" pais="" codigoPostal="" />
+        <fa:Totales subtotalSinDescuentos="" subtotalConDescuentosSinIva="" totalMx="" cantidadConLetra="" />
+        <fa:Subtotales>
+          <fa:Subtotal Impuesto="IVA" Tasa=" 16 % " Ley="SUB-TOTAL VENTA" Importe="  131.04         " />
+        </fa:Subtotales>
+        <fa:Detalles>
+          <fa:Detalle descripcion="Un consumo                                                            " cantidad=" 1   " valorUnitario="131.04           " importe="  131.04         " clave="9999999             " division="7001" unidad="           NO APLICA" />
+        </fa:Detalles>
+      </fa:AddendaComercial>
+      <fa:hfd version="1.0">~|0|Z0 Xi
+~K1="Arial" 5
+~K2="Arial" n 7
+~K3="Arial" n 6
+~K4="Arial" 8
+~K5="Arial" n 8
+~K6="Arial" n 10
+~K7="Century" n 16
+
+~&lt;P'=1'
+~&gt;
+
+~H|0|
+
+~[100
+~#|e+ 15.1 | Jc @7
+~&lt;Z30
+~&gt;
+SANBORN HERMANOS, S.A.
+
+~#|e+| Jl @3
+RFC: @4SHE190630V37      @3RegimenFiscal: REGIMEN DE CONSOLIDACION FISCAL     
+~&lt;Z30
+~&gt;
+~]
+ 
+
+
+~[5 50 50 5
+~#
+~#|e+| M80.80 Jl Jv50 @4
+@5Domicilio Fiscal: 
+
+LAGO ZURICH 245  EDIFICIO PRESA FALCON PISO 7
+
+GRANADA AMPLIACION
+
+MIGUEL HIDALGO  MEXICO   
+
+D.F.  11529
+
+~#|e+| M80.80 Jl Jv50 @4
+@5EXPEDIDO EN SUCURSAL MADERO
+
+AV. FRANCISCO I. MADERO 4  
+
+CENTRO 
+
+CUAUHTEMOC  MEXICO 
+
+D.F. 06500 
+~]
+
+~&lt;Z20
+~&gt;
+
+~[75 25
+
+~#
+~[75 
+~#
+~[30 70
+~#
+~[30
+~#|e+30.1 glg d0 r0| M210.210 Jl @5
+NOMBRE O RAZÓN SOCIAL:
+
+~#|e+30.1 gdg u0 r0| M200.200 Jl Jv50 @5
+
+~]
+
+~#
+~[70
+~#|e+30.1 gug d0 l0| M80.80 Jl @4
+UNIVERSIDAD AUTÓNOMA DE ZACATECAS "FRANCISCO GARCÍA SALINAS" AVENIDA 
+
+~#|e+30.1 grg udl0| M180.180 Jl @4
+JARDIN JUAREZ  147    
+
+CENTRO HISTORICO   
+
+ZACATECAS MEXICO 
+
+ZACATECAS 98000 
+
+~#|e+30.1 grg  ul0| M150.150 Jl @4
+      
+
+    
+
+  
+
+~]
+~]
+~]
+~#
+~[25
+
+~#|e+ 15.1  gulg| M85.85 Jc Jv50 @5
+FACTURA
+
+~#|e+ 15.1 gdrg| M85.85 Jc Jv50 @4
+N°: UA  1614667
+
+~#|e+ 15.1 gulg| MM120.120 Jc Jv50 @5
+FECHA Y HORA
+
+~#
+~[25 25 25 45
+~#|e+ 15.1 gdg r0| M120.120 Jc @3 
+DIA
+
+@408
+~#|e+ 15.1 r0| M120.120 Jc @3
+MES
+
+@408
+~#|e+ 15.1 grg r0| M120.120 Jc @3
+AÑO
+
+@413
+
+
+~#|e+ 15.1 grg | M120.120 Jc @3
+HORA
+
+@409:59:44
+~]
+~]
+~]
+
+~[75 25
+
+~#|e+15.1 glurdg | M100.100 Jl Jv30  @5 
+RFC: @4UAZ680906NI4 
+
+
+TARJETA DE CREDITO 7016 
+
+~#|e+ 15.1 gruldg| M100.100 Jc Jv70 @4
+PAGO EN UNA SOLA EXHIBICION
+
+~]
+
+~[50 50
+
+~#|e+ 15.1 gudlrg|M100.100 Jl Jv50 @5
+AÑO Y NÚMERO DE APROBACIÓN: @42013 / 338875
+
+~#|e+ 15.1 gudlrg|M100.100 Jl Jv50 @5
+N° DE CERTIFICADO: @400001000000201742687
+
+~]
+~&lt;Z20
+~&gt;
+
+
+~[10 10 10 30 10 15 15
+~#|e+ 10.1 gudlrg|M60.60 Jc @2
+Division
+~#|e+ 10.1 gudlrg|M60.60 Jc @2
+Clave
+~#|e+ 10.1 gudlrg|M60.60 Jc @2
+Cantidad
+~#|e+ 10.1 gudlrg|M60.60 Jc @2
+Descripcion
+~#|e+ 10.1 gudlrg|M60.60 Jc @2
+U.M.
+~#|e+ 10.1 gudlrg|M60.60 Jc @2
+Precio Unitario
+~#|e+ 10.1 gudlrg|M60.60 Jc @2
+Importe Neto
+~]
+~&gt;
+
+~[  10 10 10 30 10 15 15
+~# Jr @4 |r30|
+7001
+~# Jr @4 |r30|
+9999999             
+~#  Jr @4 |r30|
+ 1   
+~#  Jl @4 |l30|
+Un consumo                                                            
+~# J @4 |r30|
+           NO APLICA
+~# Jr @4 |r30| 
+131.04
+~# Jr @4 |r30|
+131.04
+~]
+
+~&lt;Z50
+~&gt;
+
+~[1
+~#|e+ 15.1 gudlrg|M200.200 Jl @1
+@3CADENA ORIGINAL:
+
+
+	||2.2|UA|1614667|2013-08-08T09:59:44|338875|2013|ingreso|PAGO EN UNA SOLA EXHIBICION|131.04|0.00|152.00|TARJETA DE CREDITO|EXPEDIDO EN SUCURSAL MADERO|7016|1|MX|SHE190630V37|SANBORN HERMANOS, S.A.|LAGO ZURICH|245|EDIFICIO PRESA FALCON PISO 7|GRANADA AMPLIACION|MIGUEL HIDALGO|MIGUEL HIDALGO|D.F.|MEXICO|11529|AV. FRANCISCO I. MADERO|4|CENTRO|CUAUHTEMOC|CUAUHTEMOC|D.F.|MEXICO|06500|REGIMEN DE CONSOLIDACION FISCAL|UAZ680906NI4|UNIVERSIDAD AUTÓNOMA DE ZACATECAS "FRANCISCO GARCÍA SALINAS" AVENIDA|JARDIN JUAREZ|147|CENTRO HISTORICO|ZACATECAS|ZACATECAS|ZACATECAS|MEXICO|98000|1|NO APLICA|9999999|Un consumo|131.04|131.04|IVA|16|20.96|20.96|| 
+~]
+
+
+
+~F|0|
+
+~[5 95
+~#e+
+~#|e+|Jl @5
+
+
+
+
+~]
+
+~[  60 15 7 6 12
+~#  Jl @4
+
+~#       |e+ 15.1 r0|M75.75 Jl Jv50 @5
+SUB-TOTAL VENTA
+~#  |e+ 15.1 lr0|M75.75 Jl Jv50 @5 
+IVA
+~#      |e+ 15.1 l0|M75.75 Jl Jv50 @5
+ 16 % 
+~#   |e+ 15.1 l0|M75.75 Jr Jv50 @4
+131.04
+~]
+
+~[60 28 12
+~#|e+ l150|M300.300 Jl Jv90 @3
+( EL IVA SE TRASLADA A LA TASA 16% )
+
+~#
+~[18
+~#|e+ 15.1 |M75.75 Jl Jv50 @5
+SUB-TOTAL
+~#|e+ 15.1 |M75.75 Jl Jv50 @5
+I.V.A.
+~#|e+ 15.1 |M75.75 Jl Jv50 @5
+
+~#|e+ 15.1 |M75.75 Jl Jv50 @5
+TOTAL
+~]
+
+~#
+~[12
+~#|e+ 15.1|M75.75 Jr Jv50 @4
+131.04
+~#|e+ 15.1|M75.75 Jr Jv50 @4
+20.96
+~#|e+ 15.1|M75.75 Jr Jv50 @4
+
+~#|e+ 15.1|M75.75 Jr Jv50 @4
+152.00
+~]
+~]
+
+~[1
+~#|e+ 15.1 gudlrg|M75.75 Jl Jv50 @5
+IMPORTE CON LETRA:  @4(* CIENTO CINCUENTA Y DOS PESOS 00/100 M.N. *)
+~]
+~&lt;Z10
+~&gt;
+~[1
+~#|e+ 15.1 gudlrg|M200.200 Jl Jv50 @3
+SELLO DIGITAL:  @1gShXaFVGtmGm2cYzyOhlhDKKUQptGq6qDTfjwiTItPARrjWT3UQn0RK1ZVLdUV68CG+9c4t7vlSHaWFl8GNprNS2DdcKmJFo9UVlaC6z1AnCdrtS+IlIk+iGz+qtzVN1Go+Q3y+t5+ZQBjAgy9W48jiVeelPpy8ODe+V9IIB864=
+~]
+~&lt;Z10
+~&gt;
+~[1
+~#|e+ 15.1 gudlrg|M200.200 Jl Jv50 @5
+Observaciones  @40001,026,7112,01/08/2013
+~]
+~&lt;Z10
+~&gt;
+~[1
+~#|e+|M200.200 Jc @3
+ESTE DOCUMENTO ES UNA REPRESENTACION IMPRESA DE UN CFD.
+
+PAGO EN UNA SOLA EXHIBICIÓN. EFECTOS FISCALES AL PAGO.
+
+LA REPRODUCCIÓN NO AUTORIZADA DE ESTE COMPROBANTE, CONSTITUYE
+
+UN DELITO EN LOS TÉRMINOS DE LAS DISPOSICIONES FISCALES.
+~]
+
+~&gt;</fa:hfd>
+    </fa:Datos>
+  </Addenda>
+</Comprobante>
