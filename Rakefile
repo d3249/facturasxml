@@ -8,7 +8,7 @@ end
 
 desc "Repackages the gem file"
 task :build do
-  gemfile = Dir["^facturasxml*.gem$"]
-  rm(file,verbose:true) unless gemfile.empty?
+  gemfile = Dir["facturasxml*.gem"]
+  rm(gemfile,verbose:true) unless gemfile.empty?
   sh 'gem build facturasXML.gemspec'
 end

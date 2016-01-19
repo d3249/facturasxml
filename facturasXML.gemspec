@@ -4,8 +4,8 @@ Gem::Specification.new do |s|
   s.summary = "Crea reportes de facturas XML según el estandar mexicano"
   s.description = File.read(File.join(File.dirname(__FILE__),'README'))
   s.licenses = "GPLv2"
-  s.requirements = "Ningun requerimiento especial"
-  s.version = "0.1.1"
+  s.requirements = "Qt library"
+  s.version = "0.1.3"
   s.author = "Edgar Arturo Ramos Rambaud"
   s.email = "edgar.a.ramos.rambaud@gmail.com"
   s.homepage = "https://github.com/d3249/facturasxml"

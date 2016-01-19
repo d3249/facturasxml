@@ -23,6 +23,7 @@ module FacturasXML
   # por lo que hace uso de procesamiento en paralelo (multiples hilos). Por esta razón no se puede
   #garantizar un orden en el resultado, sin embargo esto puede solucionarse facilmente con cualquier editor de hojas de cálculo.#  module Core
 
+  module Core
   include FacturasXML::Log
     
     @acum = 0.0
@@ -129,18 +130,15 @@ module FacturasXML
       end
     end
   end
+  
 
   #Crea la línea final de Total en caso de haber sido requerida.
   def create_total_line(position,value)
-    line = ""
-    
+    line = "" 
     (position-2).times {line += "\t"}
-
     line += "TOTAL\t#{value}"
   end
   
-
-  end
-  
 end
-  
+
+end  

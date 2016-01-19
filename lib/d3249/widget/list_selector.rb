@@ -48,8 +48,12 @@ module D3249
         @items_list.each do |item|
             @list.add_item(trUtf8(item))
         end
+        connect(@list,SIGNAL('itemDoubleClicked(QListWidgetItem *)'),
+                self,SLOT('add_selected_item()'))
                 
         @selected = Qt::ListWidget.new
+        connect(@selected,SIGNAL('itemDoubleClicked(QListWidgetItem *)'),
+                self,SLOT('remove_selected_item()'))
 
         @add_b = Qt::PushButton.new(trUtf8('>>'))
         connect(@add_b,SIGNAL('clicked()'),
