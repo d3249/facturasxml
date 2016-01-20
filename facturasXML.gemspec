@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = File.read(File.join(File.dirname(__FILE__),'README'))
   s.licenses = "GPLv2"
   s.requirements = "Qt library"
-  s.version = "0.1.3"
+  s.version = "0.1.4"
   s.author = "Edgar Arturo Ramos Rambaud"
   s.email = "edgar.a.ramos.rambaud@gmail.com"
   s.homepage = "https://github.com/d3249/facturasxml"
@@ -15,4 +15,6 @@ Gem::Specification.new do |s|
   s.executables = ["facturasxml","facturasxml-gui"]
   s.test_files = Dir["test/test*.rb"]
   s.has_rdoc = true
+  s.add_dependency 'nokogiri', '~> 1.6','> 0'
+  s.add_dependency 'qtbindings', '~> 4.8', '> 0'
 end

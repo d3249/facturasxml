@@ -41,8 +41,12 @@ module D3249
 
         path = @line_editor.text
 
-        path = system("echo $HOME") if path == ""
+        path = `echo $HOME` if path == ""
 
+        while path.slice(-1) !~ /\w/
+          path = path.slice(0,path.size - 1)
+        end
+        
         path = Qt::FileDialog.get_existing_directory(self,tr('Abrir Carpeta'),path,Qt::FileDialog::ShowDirsOnly)
 
         @line_editor.set_text(path)        
