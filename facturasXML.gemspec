@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.add_dependency 'nokogiri', '~> 1.6', '>= 1.6.7'
   s.add_dependency 'qtbindings', '~> 4.8', '>= 4.8.6'
-  s.add_dependency 'axlsx','~> 2.0', '>= 2.0.1' ,
+  s.add_dependency 'axlsx','~> 2.0', '>= 2.0.1'
 end
