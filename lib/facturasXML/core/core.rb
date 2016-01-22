@@ -6,7 +6,7 @@
 #
 
 #
-
+require 'axlsx'
 require_relative "../logger/logger.rb"
 require_relative "../factura.rb"
 
@@ -16,8 +16,7 @@ module FacturasXML
   # Se usa una librería (nokogiri) para analizar un archivo XML en busca de los elementos
   #
   # Otra función hará uso de la anterior para procesar una lista de archivos y hacer un resumen
-  # en un archivo de valores separados por tabuladores (csv) el cual puede ser abierto con un editor
-  # de hojas de cálculo (v.g. MS Excell o LibreOffice Calc).
+  # en un archivo xlsx (MS Excel)
   #
   # Las funciones de este módulo están pensadas para el manejo de un gran número de archivos XML,
   # por lo que hace uso de procesamiento en paralelo (multiples hilos). Por esta razón no se puede
@@ -80,7 +79,7 @@ module FacturasXML
 
         if linea
           mutex.lock
-          summary.puts(linea)
+          summary.add_row linea.split("\t")
           mutex.unlock
         else
           mutex.lock
@@ -108,12 +107,16 @@ module FacturasXML
     cols = options.cols_proc_list
 
     File.open("#{path}/#{logfile_name}","w") do |logfile|
-      File.open("#{path}/#{file_name}","w") do |summary|
 
-        logfile.puts("#{Time.now} Iniciando")
-  
-        summary.puts(headers)
+      xlsx_writer = Axlsx::Package.new
+      summary_file = xlsx_writer.workbook
 
+      summary_file.add_worksheet(:name => "Resumen de facturas") do |summary|
+      
+        logfile.puts "#{Time.now} Iniciando"        
+
+        summary.add_row headers.split("\t")
+        
         @acum = 0.0
       
         xml_files = scandir(path)
@@ -125,9 +128,12 @@ module FacturasXML
         summary.puts(create_total_line(options.t_position,@acum)) if total
 
         logfile.puts("#{Time.now} Monto total de los comprobantes: #{@acum}")
-        logfile.puts("#{Time.now} Terminado")
 
+        logfile.puts("#{Time.now} Terminado")
       end
+
+      xlsx_writer.serialize("#{path}/#{file_name}")
+
     end
   end
   
