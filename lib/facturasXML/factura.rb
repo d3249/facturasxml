@@ -41,9 +41,9 @@ module FacturasXML
     attr_reader :nombre_de_archivo, :conceptos, :impuestos
 
     #Inicializa la Factura con el archivo dado
-    def initialize(nombre_de_archivo)
-      @nombre_de_archivo = nombre_de_archivo
-      @xml_document = File.open(@nombre_de_archivo) { |f| Nokogiri::XML(f) }
+    def initialize(ruta_de_archivo)
+      @nombre_de_archivo = ruta_de_archivo.split(/\/|\\/)[-1]
+      @xml_document = File.open(ruta_de_archivo) { |f| Nokogiri::XML(f) }
 
       ##Se recuperan los tres nodos principales
       @comprobante = recuperar_nodo("Comprobante")

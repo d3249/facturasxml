@@ -7,6 +7,10 @@ require_relative "../lib/facturasXML/gui/facturas_xml_gui.rb"
 if __FILE__ == $0
 
   Qt::Application.new(ARGV) do
+
+    Qt::TextCodec.set_codec_for_tr(Qt::TextCodec.codec_for_name("UTF-8"))
+    Qt::TextCodec.set_codec_for_c_strings(Qt::TextCodec.codec_for_name("UTF-8"))
+    Qt::TextCodec.set_codec_for_locale(Qt::TextCodec.codec_for_name("UTF-8"))
     
     w = FacturasXML::GUI::FacturasXMLGUI.new do      
       set_window_title(trUtf8('FacturasXML'))
